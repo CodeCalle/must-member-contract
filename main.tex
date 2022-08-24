@@ -1,0 +1,46 @@
+\documentclass[12pt, a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{hyperref}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{color,soul}
+\usepackage{listings}
+\usepackage{blindtext}
+\usepackage{float,wrapfig,subcaption}
+\usepackage{amsmath}
+\usepackage{mathtools}
+\usepackage[margin=0.9in]{geometry} % Bredare text
+\usepackage[version=4]{mhchem}
+\usepackage{booktabs}
+\usepackage{gensymb}
+\usepackage{tabularx}
+\usepackage[nolist,nohyperlinks]{acronym}
+
+\newcommand{\alert}[1]{\textcolor{red}{\textit{\scriptsize\textbf{\uppercase{#1}}}}}
+
+\input{acronyms}
+
+%%%%%%%% Sidhuvud %%%%%%%%
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{ELA001, CEL307, CEL405, CEL406}
+\lhead{Project contract - Summer Project VT22}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+    \begin{center}
+        \section*{Code of conduct}
+    \end{center}
+
+    
+    \input{sections/working_hours}
+    \input{sections/sick_leave}
+    \input{sections/Time_off}
+    \input{sections/time_balance}
+    \input{sections/cleaning}
+    \input{sections/eating}
+    \input{sections/signatures}
+\end{document}
